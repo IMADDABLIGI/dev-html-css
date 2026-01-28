@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centre Médical - Prise de Rendez-vous</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- En-tête -->
+    <header class="header">
+        <h1 id="centre-name">Centre Médical Al Amal</h1>
+        
+        <nav class="menu">
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#rendez-vous">Rendez-vous</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section principale -->
+    <main class="container">
+
+        <!-- Informations générales -->
+        <section id="accueil" class="section">
+            <h2>Bienvenue au Centre Médical Al Amal</h2>
+            
+            <p>Notre centre médical vous accueille du lundi au samedi pour tous vos besoins de santé.</p>
+            
+            <div class="info-block">
+                <h3>Horaires d'ouverture</h3>
+                <p>Lundi - Vendredi : 8h00 - 20h00</p>
+                <p>Samedi : 9h00 - 18h00</p>
+            </div>
+            
+            <p>Nous disposons d'une équipe médicale qualifiée et d'équipements modernes.</p>
+            
+            <div class="info-block">
+                <h3>Urgences</h3>
+                <p>Pour toute urgence médicale, appelez le 141</p>
+            </div>
+            
+            <div class="info-block">
+                <h3>Localisation</h3>
+                <p>Avenue Mohammed V, Casablanca</p>
+            </div>
+        </section>
+
+        <!-- Services médicaux -->
+        <section id="services" class="section">
+            <h2>Nos Services Médicaux</h2>
+            
+            <ul class="services-list">
+                <li class="service-item">Médecine générale</li>
+                <li class="service-item">Pédiatrie</li>
+                <li class="service-item">Cardiologie</li>
+                <li class="service-item">Dermatologie</li>
+                <li class="service-item">Orthopédie</li>
+                <li class="service-item">Gynécologie</li>
+                <li class="service-item">Radiologie</li>
+                <li class="service-item">Analyses médicales</li>
+            </ul>
+        </section>
+
+        <!-- Formulaire de rendez-vous -->
+        <section id="rendez-vous" class="section">
+            <h2>Prendre un Rendez-vous</h2>
+            
+            <p>Remplissez le formulaire ci-dessous pour prendre rendez-vous avec nos spécialistes.</p>
+            
+            <form class="form">
+                <label>
+                    Nom complet :
+                    <input type="text" name="nom" required placeholder="Votre nom complet">
+                </label>
+
+                <label>
+                    Email :
+                    <input type="email" name="email" required placeholder="votre@email.com">
+                </label>
+
+                <label>
+                    Téléphone :
+                    <input type="tel" name="telephone" required placeholder="06 00 00 00 00">
+                </label>
+
+                <label>
+                    Date souhaitée :
+                    <input type="date" name="date" required>
+                </label>
+
+                <label>
+                    Service médical :
+                    <select name="service" required>
+                        <option value="">Choisissez un service</option>
+                        <option value="generale">Médecine générale</option>
+                        <option value="pediatrie">Pédiatrie</option>
+                        <option value="cardiologie">Cardiologie</option>
+                        <option value="dermatologie">Dermatologie</option>
+                    </select>
+                </label>
+
+                <label>
+                    Motif de consultation :
+                    <textarea name="motif" rows="4" placeholder="Décrivez brièvement votre motif de consultation"></textarea>
+                </label>
+
+                <button type="submit">Confirmer le rendez-vous</button>
+            </form>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <h2>Nous Contacter</h2>
+            
+            <p>Pour toute question, n'hésitez pas à nous contacter.</p>
+            
+            <p>Email : contact@centre-amal.ma</p>
+            <p>Téléphone : 05 22 00 00 00</p>
+        </section>
+
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="footer">
+        <p>© 2026 - Centre Médical Al Amal</p>
+        <nav>
+            <a href="#mentions">Mentions légales</a>
+            <a href="#confidentialite">Confidentialité</a>
+            <a href="#plan">Plan du site</a>
+        </nav>
+    </footer>
+
+</body>
+</html>
