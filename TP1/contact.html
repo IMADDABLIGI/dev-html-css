@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innosys - Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background-color: #00bcd4;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+        .logo {
+            max-width: 150px;
+            margin-bottom: 15px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.2em;
+        }
+        .content {
+            background-color: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .content h2 {
+            color: #00bcd4;
+            border-bottom: 2px solid #00bcd4;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin: 30px 0;
+        }
+        .contact-info {
+            background-color: #f9f9f9;
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 4px solid #00bcd4;
+        }
+        .contact-info h3 {
+            color: #00bcd4;
+            margin-top: 0;
+            font-size: 1.3em;
+        }
+        .contact-item {
+            margin: 15px 0;
+            padding: 10px 0;
+            color: #555;
+        }
+        .contact-item strong {
+            color: #333;
+            display: inline-block;
+            min-width: 100px;
+        }
+        .map-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+        .map-image {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin-top: 20px;
+        }
+        .contact-form {
+            background-color: #f9f9f9;
+            padding: 30px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+        .contact-form h3 {
+            color: #00bcd4;
+            margin-top: 0;
+        }
+        .form-group {
+            margin: 20px 0;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+            font-weight: bold;
+        }
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        .submit-btn {
+            background-color: #00bcd4;
+            color: white;
+            padding: 12px 40px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .submit-btn:hover {
+            background-color: #0097a7;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 12px 30px;
+            background-color: #00bcd4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .back-link:hover {
+            background-color: #0097a7;
+        }
+        .icon {
+            color: #00bcd4;
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+        .rating {
+            color: #ffa000;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="images/logo.jpg" alt="Logo Innosys" class="logo">
+            <h1>Nous Contacter</h1>
+        </div>
+        
+        <div class="content">
+            <h2>Informations de Contact</h2>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3><span class="icon">📍</span>Adresse</h3>
+                    <div class="contact-item">
+                        <strong>Innosys</strong><br>
+                        15 Rue de Liège<br>
+                        75009 Paris, France
+                    </div>
+                    <div class="rating">
+                        ⭐⭐⭐⭐⭐ 5.0 (2 avis)
+                    </div>
+                </div>
+                
+                <div class="contact-info">
+                    <h3><span class="icon">📞</span>Téléphone & Email</h3>
+                    <div class="contact-item">
+                        <strong>Téléphone:</strong> +33 1 23 45 67 89
+                    </div>
+                    <div class="contact-item">
+                        <strong>Email:</strong> contact@innosys.fr
+                    </div>
+                    <div class="contact-item">
+                        <strong>Support:</strong> support@innosys.fr
+                    </div>
+                </div>
+                
+                <div class="contact-info">
+                    <h3><span class="icon">🕐</span>Horaires d'ouverture</h3>
+                    <div class="contact-item">
+                        <strong>Lundi - Vendredi:</strong><br>
+                        9h00 - 18h00
+                    </div>
+                    <div class="contact-item">
+                        <strong>Samedi - Dimanche:</strong><br>
+                        Fermé
+                    </div>
+                </div>
+            </div>
+            
+            <div class="map-container">
+                <h3 style="color: #00bcd4;">📍 Notre Localisation</h3>
+                <img src="images/map.JPG" alt="Carte Innosys Paris" class="map-image">
+                <p style="color: #666; margin-top: 15px;">
+                    Nous sommes situés au cœur de Paris, près du Théâtre de Paris et de la Gare Saint-Lazare
+                </p>
+            </div>
+            
+            <div class="contact-form">
+                <h3>Envoyez-nous un message</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Nom complet *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Sujet *</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message *</label>
+                        <textarea id="message" name="message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="submit-btn">Envoyer le message</button>
+                </form>
+            </div>
+            
+            <div style="margin-top: 30px; padding: 20px; background-color: #e0f7fa; border-radius: 8px;">
+                <h3 style="color: #00bcd4; margin-top: 0;">💼 Besoin d'un devis ?</h3>
+                <p>Notre équipe commerciale est à votre disposition pour discuter de votre projet et vous proposer une solution adaptée à vos besoins. N'hésitez pas à nous contacter pour un rendez-vous ou un devis gratuit.</p>
+            </div>
+            
+            <a href="index.html" class="back-link">← Retour</a>
+        </div>
+    </div>
+</body>
+</html>
