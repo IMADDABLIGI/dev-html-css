@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centre Médical Al Amal - Mohammedia</title>
+</head>
+<body>
+    
+    <!-- En-tête du site -->
+    <header>
+        <h1>Centre Médical Al Amal</h1>
+        <p><em>Votre santé, notre priorité</em></p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <h2>Navigation</h2>
+        <ul>
+            <li><a href="#services">Nos Services</a></li>
+            <li><a href="#presentation">Présentation</a></li>
+            <li><a href="#localisation">Nous Trouver</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <!-- Lien externe vers site médical fiable -->
+            <li><a href="https://www.sante.gov.ma" target="_blank" rel="noopener noreferrer">Ministère de la Santé (nouvel onglet)</a></li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <!-- Section 1 : Présentation avec image -->
+    <section id="presentation">
+        <h2>Bienvenue au Centre Médical Al Amal</h2>
+        
+        <p>
+            Situé au cœur de Mohammedia, notre centre médical vous accueille depuis plus de 15 ans. 
+            Nous offrons des soins de qualité dans un environnement moderne et chaleureux.
+        </p>
+
+        <!-- Image du centre -->
+        <img src="poster.jpg" 
+             alt="Façade du Centre Médical Al Amal de Mohammedia avec accueil moderne et accessible" 
+             width="600" 
+             height="400">
+
+        <p>
+            Notre équipe médicale qualifiée et notre plateau technique performant nous permettent 
+            de répondre à l'ensemble de vos besoins en matière de santé.
+        </p>
+
+        <!-- Message audio d'accueil -->
+        <h3>Message d'accueil</h3>
+        <audio controls>
+            <source src="t-rex-roar.mp3" type="audio/mpeg">
+            Votre navigateur ne supporte pas l'élément audio.
+        </audio>
+        <p><small>Écoutez notre message d'information sur les horaires d'ouverture</small></p>
+    </section>
+
+    <hr>
+
+    <!-- Section 2 : Services médicaux -->
+    <section id="services">
+        <h2>Nos Services Médicaux</h2>
+        
+        <p>Le Centre Médical Al Amal met à votre disposition une gamme complète de services :</p>
+
+        <ul>
+            <li><strong>Médecine Générale</strong> - Consultations quotidiennes sans rendez-vous</li>
+            <li><strong>Pédiatrie</strong> - Suivi de la santé de vos enfants</li>
+            <li><strong>Cardiologie</strong> - Examens et consultations spécialisées</li>
+            <li><strong>Radiologie</strong> - Scanner, IRM, Échographie</li>
+            <li><strong>Laboratoire d'Analyses</strong> - Résultats rapides et fiables</li>
+            <li><strong>Kinésithérapie</strong> - Rééducation et soins</li>
+        </ul>
+
+        <h3>Horaires d'Ouverture</h3>
+        <table border="1" cellpadding="10" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Jour</th>
+                    <th>Horaires</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lundi - Vendredi</td>
+                    <td>08h00 - 20h00</td>
+                </tr>
+                <tr>
+                    <td>Samedi</td>
+                    <td>09h00 - 18h00</td>
+                </tr>
+                <tr>
+                    <td>Dimanche</td>
+                    <td>Fermé (Urgences : 141)</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- Section 3 : Vidéo de présentation -->
+    <section id="video-presentation">
+        <h2>Vidéo de Présentation</h2>
+        
+        <p>Découvrez notre centre médical en vidéo :</p>
+
+        <!-- Vidéo avec poster et contrôles -->
+        <video poster="poster.jpg" 
+               width="700" 
+               height="400" 
+               controls>
+            <source src="ma_video.mp4" type="video/mp4">
+            <source src="ma_video.avi" type="video/avi">
+            Votre navigateur ne supporte pas la balise vidéo.
+        </video>
+
+        <p><small>Visite virtuelle de nos installations et présentation de notre équipe médicale</small></p>
+    </section>
+
+    <hr>
+
+    <!-- Section 4 : Informations pratiques -->
+    <section id="infos-pratiques">
+        <h2>Informations Pratiques</h2>
+
+        <h3>Contact Rapide</h3>
+        <ul>
+            <li>Téléphone : <a href="tel:0523322220">05 23 32 22 20</a></li>
+            <li>Email : <a href="mailto:contact@centre-amal.ma">contact@centre-amal.ma</a></li>
+            <li>Urgences : <a href="tel:141">141</a></li>
+        </ul>
+
+        <h3>Prise de Rendez-vous</h3>
+        <p>
+            Pour prendre rendez-vous avec l'un de nos spécialistes, 
+            <a href="contact.html"><strong>remplissez notre formulaire de contact</strong></a> 
+            ou appelez-nous directement.
+        </p>
+
+        <h3>Documents Utiles</h3>
+        <p>
+            Consultez notre <a href="mon_doc.pdf" target="_blank">guide patient (PDF)</a> 
+            pour plus d'informations sur nos services.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- Section 5 : Localisation avec Google Maps -->
+    <section id="localisation">
+        <h2>Nous Trouver</h2>
+        
+        <p>
+            <strong>Adresse :</strong> Boulevard Hassan II, Mohammedia 28800, Maroc
+        </p>
+
+        <h3>Plan d'accès</h3>
+        
+        <!-- Carte Google Maps intégrée via iframe -->
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3321.8144872668893!2d-7.396658024261684!3d33.68661437331194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cd827a28d2a9%3A0x8c3a8c8e5e8c8c8c!2sMohammedia%2C%20Maroc!5e0!3m2!1sfr!2sma!4v1706461234567!5m2!1sfr!2sma" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+
+        <p>
+            <strong>Accès :</strong> À 5 minutes de la gare de Mohammedia, parking gratuit disponible.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- Pied de page -->
+    <footer>
+        <h3>Centre Médical Al Amal</h3>
+        <p>
+            Boulevard Hassan II, Mohammedia 28800<br>
+            Tél: <a href="tel:0523322220">05 23 32 22 20</a> | 
+            Email: <a href="mailto:contact@centre-amal.ma">contact@centre-amal.ma</a>
+        </p>
+        
+        <nav>
+            <p>
+                <a href="#presentation">Présentation</a> | 
+                <a href="#services">Services</a> | 
+                <a href="contact.html">Contact</a> | 
+                <a href="#localisation">Localisation</a>
+            </p>
+        </nav>
+
+        <p><small>&copy; 2026 Centre Médical Al Amal - Tous droits réservés</small></p>
+    </footer>
+
+</body>
+</html>

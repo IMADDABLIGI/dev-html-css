@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Centre Médical Al Amal</title>
+</head>
+<body>
+    
+    <!-- En-tête -->
+    <header>
+        <h1>Contactez le Centre Médical Al Amal</h1>
+        <p><a href="index.html">← Retour à l'accueil</a></p>
+    </header>
+
+    <hr>
+
+    <!-- Section formulaire de contact patient -->
+    <section>
+        <h2>Formulaire de Contact Patient</h2>
+        
+        <p>
+            Remplissez ce formulaire pour nous contacter ou prendre rendez-vous. 
+            Nous vous répondrons dans les plus brefs délais.
+        </p>
+
+        <form action="">
+            
+            <!-- Nom du patient -->
+            <label for="nom">Nom complet * :</label><br>
+            <input type="text" 
+                   id="nom" 
+                   name="nom" 
+                   placeholder="Votre nom complet..." 
+                   required><br><br>
+
+            <!-- Email -->
+            <label for="email">Adresse email * :</label><br>
+            <input type="email" 
+                   id="email" 
+                   name="email" 
+                   placeholder="votre@email.com" 
+                   required><br><br>
+
+            <!-- Téléphone -->
+            <label for="tel">Numéro de téléphone * :</label><br>
+            <input type="tel" 
+                   id="tel" 
+                   name="tel" 
+                   placeholder="06 00 00 00 00" 
+                   required><br><br>
+
+            <!-- Service médical souhaité -->
+            <label for="service">Service médical souhaité :</label><br>
+            <select id="service" name="service">
+                <option value="">-- Choisissez un service --</option>
+                <option value="generale">Médecine Générale</option>
+                <option value="pediatrie">Pédiatrie</option>
+                <option value="cardiologie">Cardiologie</option>
+                <option value="radiologie">Radiologie</option>
+                <option value="analyses">Laboratoire d'Analyses</option>
+                <option value="kine">Kinésithérapie</option>
+            </select><br><br>
+
+            <!-- Date souhaitée -->
+            <label for="date">Date souhaitée pour le rendez-vous :</label><br>
+            <input type="date" 
+                   id="date" 
+                   name="date"><br><br>
+
+            <!-- Motif ou message -->
+            <label for="message">Votre message ou motif de consultation * :</label><br>
+            <textarea id="message" 
+                      name="message" 
+                      cols="50" 
+                      rows="10" 
+                      placeholder="Décrivez brièvement votre demande ou le motif de votre consultation..." 
+                      required></textarea><br><br>
+
+            <!-- Type de contact préféré -->
+            <fieldset>
+                <legend>Mode de contact préféré :</legend>
+                <input type="radio" id="contact-tel" name="contact-preference" value="telephone" checked>
+                <label for="contact-tel">Téléphone</label><br>
+                
+                <input type="radio" id="contact-email" name="contact-preference" value="email">
+                <label for="contact-email">Email</label><br>
+            </fieldset><br>
+
+            <!-- Urgence -->
+            <label>
+                <input type="checkbox" name="urgence" value="oui">
+                Il s'agit d'une urgence
+            </label><br><br>
+
+            <!-- Acceptation des conditions -->
+            <label>
+                <input type="checkbox" name="conditions" required>
+                J'accepte que mes données soient utilisées pour le traitement de ma demande *
+            </label><br><br>
+
+            <!-- Boutons -->
+            <input type="submit" value="Envoyer la demande">
+            <input type="reset" value="Réinitialiser">
+
+            <br><br>
+            <p><small>* Champs obligatoires</small></p>
+        </form>
+    </section>
+
+    <hr>
+
+    <!-- Autres moyens de contact -->
+    <section>
+        <h2>Autres Moyens de Nous Contacter</h2>
+        
+        <h3>Par téléphone</h3>
+        <ul>
+            <li>Standard : <a href="tel:0523322220">05 23 32 22 20</a></li>
+            <li>Urgences : <a href="tel:141">141</a></li>
+        </ul>
+
+        <h3>Par email</h3>
+        <ul>
+            <li>Email général : <a href="mailto:contact@centre-amal.ma">contact@centre-amal.ma</a></li>
+            <li>Prise de rendez-vous : <a href="mailto:rdv@centre-amal.ma">rdv@centre-amal.ma</a></li>
+        </ul>
+
+        <h3>En personne</h3>
+        <p>
+            <strong>Adresse :</strong> Boulevard Hassan II, Mohammedia 28800<br>
+            <strong>Horaires d'accueil :</strong> Lundi - Vendredi, 08h00 - 20h00
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>
+            <a href="index.html">Accueil</a> | 
+            <a href="index.html#services">Services</a> | 
+            <a href="index.html#localisation">Localisation</a>
+        </p>
+        <p><small>&copy; 2026 Centre Médical Al Amal - Tous droits réservés</small></p>
+    </footer>
+
+</body>
+</html>
